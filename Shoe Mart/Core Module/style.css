@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+		
+}
+
+.heading{
+	text-align: center;
+}
+
+
+.shoes{
+	margin: 20px 0;
+}
+
+/*.column {
+  float: left;
+  width: 33%;
+  padding: 3px;
+}
+
+ Clear floats after image containers 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+.row {
+  display: flex;
+}
+
+.column {
+	width: 50%;
+	height: auto;
+  flex: 30%;
+  padding: 5px;
+  margin-right: -100px
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.image{
+	width: 75%;
+	 display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	height: 180px;
+}
+
+.btn{
+	width: 33%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	background-color: lightblue;
+  	border: none;
+  	border-radius: 2px;
+  	padding: 5px;
+}
+
+.btn:hover{
+	cursor: pointer;
+	background: #e1f8ff;
+}
